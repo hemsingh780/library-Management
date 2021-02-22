@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.h_header {
+  overflow: hidden;
+  background-color: lightblue;
+  padding-bottom: 1rem;
+}
+
+.nav-hem1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-hem2 {
+  list-style: none;
+}
+
+.nav-hem2 a {
+  text-decoration: none;
+}
+
+.nav-hem1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bx {
+  margin-right: 0.4rem;
+}
+
+.bcard img {
+  width: 100%;
+  height: 18rem;
+}
+
+.bcontainer {
+  padding: 2px 16px;
+}
+
+.bcard {
+  -webkit-box-shadow: 0 4px 27px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 27px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 20%;
+  display: none;
+}
+
+.bcard:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Maths_Cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.h_header a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.h_search {
+  text-align: center;
+}
+
+.h_header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 35%;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.h_header .h_search button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
