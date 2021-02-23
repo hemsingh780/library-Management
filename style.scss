@@ -77,3 +77,24 @@ display: none;
   border: none;
   cursor: pointer;
 }
+hidden-h-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+//   top: 150%;
+//   left: 50%;
+//   margin-left: -60px;
+}
+
+.h-home:hover .hidden-h-text{
+  visibility: visible;
+}
+
+
+
